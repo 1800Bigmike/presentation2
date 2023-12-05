@@ -1,6 +1,6 @@
 // Example function to load CSV data (using PapaParse)
 function loadData(callback) {
-    fetch('data/Oregon_st_schedule.csv')
+    fetch('data/oregon_st_schedule.csv')
         .then(response => response.text())
         .then(csvData => {
             const parsedData = Papa.parse(csvData, { header: true }).data;
