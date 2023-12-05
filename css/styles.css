@@ -1,0 +1,27 @@
+/* styles.css */
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#mapContainer,
+#chartContainer {
+    width: 100%;
+}
+
+#mapContainer {
+    height: 75vh; /* 75% of the viewport height */
+}
+
+#chartContainer {
+    height: 25vh; /* 25% of the viewport height */
+}
+
+#college_football_map {
+    height: calc(100vh - 40px); /* Adjust for the title height and padding */
+    width: 100%;
+}
+
+
